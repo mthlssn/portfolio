@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+.header {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-part1 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size: 18pt;
+    color: black;
+}
+
+.nav-part2 {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-opcoes {
+    font-family: 'Prompt', sans-serif;
+    font-size: 9pt;
+    color: black;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 83vh;
+}
+
+.content-header2 {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.content-header-h1 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 25pt;
+    text-align: start;
+}
+
+.content-header-h2 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.arraste {
+    color: white;
+    font-size: 9pt;
+    font-family: 'Prompt', sans-serif;
+    background-color: black;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.main {
+    background-color: #000;
+}
+
+.titulo-projects, 
+.titulo-contatos {
+    color: #fff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18pt;
+    padding: 3rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.slot {
+    /*border: 1px solid #fff;*/
+    text-decoration: none;
+    color: black;
+
+    background-color: white;
+    width: 20rem;
+    height: 11rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: .3s;
+    gap: 1rem;
+
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.slot:hover {
+    box-shadow: 0px 0px 5px white;
+}
+
+.slot-titulo {
+    margin: 0px;
+    font-family: 'Prompt', sans-serif;
+
+    color: black;
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+.slot-content {
+    padding: 0rem 2rem;
+    font-family: 'Prompt', sans-serif;
+    font-size: 9pt;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem;
+    padding-top: 0;
+
+    flex-wrap: wrap;
+}
+
+.contatc {
+    border: 1px solid white;
+    width: 15rem;
+    text-align: center;
+}
+
+.contatc-titulo {
+    background-color: white;
+    font-family: 'Prompt', sans-serif;
+    font-size: 9pt;
+    font-weight: 700;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: black;
+}
+
+.contatc-endereco {
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    font-size: 7pt;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.h3-footer {
+    color: white;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 7pt;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #ffffff;
+}
