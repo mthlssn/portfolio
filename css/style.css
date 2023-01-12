@@ -68,7 +68,7 @@ body {
     text-align: justify;
 }
 
-.arraste {
+/* .arraste {
     color: white;
     font-size: 9pt;
     font-family: 'Prompt', sans-serif;
@@ -76,7 +76,7 @@ body {
     text-align: center;
     padding: 1rem;
     font-weight: 700;
-}
+} */
 
 .main {
     background-color: #000;
