@@ -96,7 +96,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 2rem;
+    gap: 6rem;
     flex-wrap: wrap;
 }
 
